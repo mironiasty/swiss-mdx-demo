@@ -1,10 +1,10 @@
 import React from 'react';
 import { View } from 'react-native';
-import { MyButton } from './Button';
+import Demo from '../../../components/demo';
 
 const MyButtonMeta = {
   title: 'MyButton',
-  component: MyButton,
+  component: Demo,
   argTypes: {
     onPress: { action: 'pressed the button' },
   },

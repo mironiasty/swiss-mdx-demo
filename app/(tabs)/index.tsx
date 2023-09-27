@@ -1,4 +1,5 @@
-export { default } from '../../.storybook';
+// uncomment this line to enable storybook
+// export { default } from '../../.storybook';
 import { StyleSheet } from 'react-native';
 
 import { Text, View } from '../../components/Themed';
