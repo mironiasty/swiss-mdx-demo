@@ -1,6 +1,6 @@
+export { default } from '../../.storybook';
 import { StyleSheet } from 'react-native';
 
-import EditScreenInfo from '../../components/EditScreenInfo';
 import { Text, View } from '../../components/Themed';
 import CustomComponent from '../../components/CustomComponent';
 import Demo from '../../components/demo';
@@ -11,8 +11,8 @@ export default function TabOneScreen() {
       <Text style={styles.title}>Tab One</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <CustomComponent/>
+      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <Demo />
-      <EditScreenInfo path="app/(tabs)/index.tsx" />
     </View>
   );
 }
